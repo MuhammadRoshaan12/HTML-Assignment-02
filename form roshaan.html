@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    <h1 align="center">Student Registration Form</h1>
+
+    <form><div align="center">
+    
+
+        <fieldset>
+
+            <legend><b>Personal Information</b></legend>
+
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required>
+
+            <br><br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required>
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+
+            <br><br>
+
+            <label>Gender:</label>
+
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+
+            <legend><b>Academic Information</b></legend>
+
+            <label for="studentid">Student ID:</label>
+            <input type="text" id="studentid" name="studentid">
+
+            <br><br>
+
+            <label for="department">Department:</label>
+
+            <select id="department" name="department">
+
+                <option value="">-- Select Department --</option>
+                <option value="software">Software Engineering</option>
+                <option value="computer-science">Computer Science</option>
+                <option value="information-technology">Information Technology</option>
+                <option value="electrical">Electrical Engineering</option>
+                <option value="civil">Civil Engineering</option>
+
+            </select>
+
+            <br><br>
+
+            <label for="semester">Semester:</label>
+
+            <select id="semester" name="semester">
+
+                <option value="">-- Select Semester --</option>
+                <option value="1">1st Semester</option>
+                <option value="2">2nd Semester</option>
+                <option value="3">3rd Semester</option>
+                <option value="4">4th Semester</option>
+                <option value="5">5th Semester</option>
+                <option value="6">6th Semester</option>
+                <option value="7">7th Semester</option>
+                <option value="8">8th Semester</option>
+
+            </select>
+
+            <br><br>
+
+            <label for="qualification">Previous Qualification:</label>
+
+            <input type="text" id="qualification" name="qualification">
+
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+
+            <legend><b>Skills</b></legend>
+
+            <label>Select your skills:</label>
+
+            <br><br>
+
+            <input type="checkbox" id="html" name="skills" value="HTML">
+            <label for="html">HTML</label>
+
+            <br>
+
+            <input type="checkbox" id="css" name="skills" value="CSS">
+            <label for="css">CSS</label>
+
+            <br>
+
+            <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+
+            <br>
+
+            <input type="checkbox" id="java" name="skills" value="Java">
+            <label for="java">Java</label>
+
+            <br>
+
+            <input type="checkbox" id="python" name="skills" value="Python">
+            <label for="python">Python</label>
+
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+
+            <legend><b>Address</b></legend>
+
+            <label for="address">Address:</label>
+
+            <br>
+
+            <textarea id="address"
+                      name="address"
+                      rows="5"
+                      cols="40"
+                      placeholder="Enter your complete address"></textarea>
+
+            <br><br>
+
+            <label for="city">City:</label>
+
+            <input type="text" id="city" name="city">
+
+            <br><br>
+
+            <label for="country">Country:</label>
+
+            <select id="country" name="country">
+
+                <option value="">-- Select Country --</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="india">India</option>
+                <option value="uae">United Arab Emirates</option>
+                <option value="saudi-arabia">Saudi Arabia</option>
+                <option value="other">Other</option>
+
+            </select>
+
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+
+            <legend><b>Additional Information</b></legend>
+
+            <label for="color">Favorite Color:</label>
+
+            <input type="color" id="color" name="color">
+
+            <br><br>
+
+            <label for="website">Website:</label>
+
+            <input type="url" id="website" name="website"
+                   placeholder="https://example.com">
+
+            <br><br>
+
+            <label for="message">Comments:</label>
+
+            <br>
+
+            <textarea id="message"
+                      name="message"
+                      rows="5"
+                      cols="40"
+                      placeholder="Write your comments here"></textarea>
+
+            <br><br>
+
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">
+                I agree to the terms and conditions.
+            </label>
+
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+        <div align="center">
+
+            <input type="submit" value="Submit">
+
+            <input type="reset" value="Reset">
+
+        </div>
+
+        </form>
+</div>
+
+</body>
+</html>
